@@ -26,11 +26,11 @@ ul {
     background-color: #696262;
   }
 
-  img {
+  /* img {
     width: 30%;
     padding-left: 30%;
     padding-top: 5%;
-  }
+  } */
 
   .image-2 {
     padding-top: 2%;
@@ -80,3 +80,29 @@ ul {
 
 
   }
+
+  .one{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+
+  .two{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .three{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  
+img {
+    margin: 20px;
+}
+  
+
