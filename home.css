@@ -38,7 +38,7 @@ ul {
 
   /* 1st-google font */
   p {
-    background-color: #333;
+    background-color: #888383;
 
     margin: 5%;
     font-family: Roboto, sans-serif;
@@ -104,5 +104,97 @@ ul {
 img {
     margin: 20px;
 }
+
+.product{
+    display: grid;
+
+    grid-template-columns: (2,1fr);
+}
   
+
+body {
+  background-color: rgb(252, 224, 149);
+
+
+}
+
+ul {
+  background-color: rgb(248, 175, 65);
+  list-style: none;
+  
+  margin: 0;
+  padding: 3px;
+
+}
+
+.Default {
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none; 
+  color: inherit;
+
+}
+
+ul {
+
+  display: flex;
+  justify-content: left;
+  
+}
+li{
+  border: 2px;
+  font-size: 30px ;
+  margin-right: 10px;
+  /* padding: 8px ; */
+  
+}
+li :hover{
+
+  background-color: rgb(165, 136, 42);
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+.c{
+
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  border: 4px solid;
+  border-radius: 5px;
+  width: 1000px;
+  background-color: transparent;
+  
+}
+.contact{
+  width: 400px;
+}
+
+.c a:hover{
+
+  background-color:rgb(0, 255, 191) ;
+}
+.footer {
+  margin-bottom: 80px;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  /* max-width: 1100px; */
+  margin: auto;
+}
+
+.final{
+  
+  border: 2px solid;
+  border-radius: 5px ;
+  background-color: #f7d8d8;
+  padding: 5px;
+  margin: 10px;
+
+}
 
